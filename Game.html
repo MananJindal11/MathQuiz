@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Math Quiz Game</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="Game.css">
+
+		<link rel = "icon" href = "logo.jpg" type = "image/x-icon">
+	</head>
+	<body>
+		<br>
+		<br>
+		<h4 id="player1_name" class="left"></h4><span id="player1_score" class="left"></span>
+    	<h4 id="player2_name" class="right"></h4><span id="player2_score" class="right"></span>
+     		<center>
+				<h2 id="h2"><b>"The Math Quiz Game!"</b></h2>
+    			<div class="container">
+				<br>
+            	<h3 id="player_question" ></h3>
+		    	<h3 id="player_answer" ></h3>
+				<h5 id="h5"></h5>
+            	<br>
+            	<div id="output"></div>
+		    	<br>
+		    	</label>
+		    	<input type="text" id="number-1" class="form-control" placeholder="Type A Random Number Here">
+		    	<br>
+		    	<select name="function" id="function" class="form-control">
+			    	<option value="+">+</option>
+			    	<option value="-">-</option>
+			    	<option value="x">x</option>
+			    	<option value="÷">÷</option>
+		 		</select>
+		    	<br>
+		    	<input type="text" id="number-2" class="form-control" placeholder="Type A Random Number Here">
+		    	<br>
+		    	<button onclick="send()" class="btn btn-success" style="width: 30%;" id="btn_send">Send</button>
+        	</center>
+    	</div>
+		<script src="Game.js"></script>
+	</body>
+</html>

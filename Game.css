@@ -1,0 +1,84 @@
+#output
+{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-top: 10px solid #0634ff;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    color: #0634ff;
+    font-size: medium;
+    font-family:monospace;
+    font-weight: 900;
+}
+body
+{
+    background-color: black;
+}
+#h2
+{
+    color: rgb(88, 91, 255);
+    font-family: fanta;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+    margin-right: 50mm;
+}
+#player_question
+{
+    font-family:cursive;
+    color: #ffffff;
+}
+#player_answer
+{
+    font-family:cursive;
+    color: #ffffff;
+}
+.right
+{
+    float: left;
+    margin-top: 15mm;
+    margin-left: 3mm;
+    color-scheme:inherit;
+    color: #6fedc8;
+}
+.left
+{
+    float: left;
+    margin-top: 15mm;
+    margin-left: 3mm;
+    color-scheme:inherit;
+    color: #6fedc8;
+}
+#btn_send
+{
+    color: #ffffff;
+    background-color: rgb(3, 233, 233);
+    font-weight: bolder;
+    font-size:medium;
+    border-color: rgb(3, 233, 233);
+    background-size: 50mm;
+    filter:url(#smooth);
+}
+.form-control
+{
+    color: rgb(3, 233, 233);
+    font-weight: bolder;
+}
+#btn_check
+{
+    color: #ffffff;
+    background-color: rgb(3, 233, 233);
+    font-weight: bolder;
+    font-size:medium;
+    border-color: rgb(3, 233, 233);
+    background-size: 50mm;
+    filter:url(#smooth);
+}
+#h5
+{
+    color: #00b27d;
+    font-size: medium;
+    font-family:monospace;
+    font-weight: 900;
+}
